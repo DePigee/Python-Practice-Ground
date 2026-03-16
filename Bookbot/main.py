@@ -19,7 +19,7 @@ def print_report(path_to_book, num_words, sorted_dict):
     print("============ BOOKBOT ============")
     print(f"Analyzing book found at {path_to_book}")
     print("----------- Word Count ----------")
-    print(f"{num_words} Found")
+    print(f"Found {num_words} total words")
     print("--------- Character Count -------")
 
     for item in sorted_dict:
